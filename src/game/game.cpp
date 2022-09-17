@@ -1,6 +1,6 @@
 #include "game.h"
 #include <GL/glew.h>
-#include <iostream>
+#include "src/logging/logger.h"
 
 Game::Game()
 {
@@ -12,6 +12,6 @@ Game::~Game()
 
 void Game::update(const long long μs)
 {
-  std::cout << "it has been " << μs << " μs since the last update began" << std::endl;
+  logger::info(logger::message::TIME_SINCE_LAST_UPDATE, μs);
   glClear(GL_COLOR_BUFFER_BIT);
 }

@@ -71,6 +71,7 @@
     "unordered_set": "cpp",
     "utility": "cpp",
     "vector": "cpp",
-    "thread": "cpp"
+    "thread": "cpp",
+    "map": "cpp"
   }
 }

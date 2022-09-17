@@ -1,5 +1,5 @@
 #include "window/window.h"
-#include "game/game.h"
+#include "src/game/game.h"
 
 class Application
 {

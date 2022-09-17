@@ -6,6 +6,7 @@
 namespace config
 {
   static std::string title = "mc";
+  static std::string monitor_filename = "monitor.txt";
   static const bool debug = false;
 }
 
