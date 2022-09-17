@@ -7,7 +7,7 @@
                 "/Library/Frameworks"
             ],
             "intelliSenseMode": "macos-clang-x64",
-            "includePath": ["src"],
+            "includePath": [".", "src"],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c11",
             "cppStandard": "c++11"

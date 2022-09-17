@@ -5,7 +5,8 @@
 
 namespace config
 {
-    static std::string title = "mc";
+  static std::string title = "mc";
+  static const bool debug = false;
 }
 
 #endif // CONFIG_H
