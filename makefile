@@ -8,7 +8,7 @@ clean:
 monitor:
 	tail -F monitor.txt
 
-run: build
-	./bin/mc
+run:
+	python3 scripts/build.py && ./bin/mc
 
 .PHONY: build clean run monitor

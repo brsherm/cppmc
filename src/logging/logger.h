@@ -13,7 +13,8 @@ namespace logger
   extern std::stringstream contents;
   extern std::ofstream file;
   enum message {
-    TIME_SINCE_LAST_UPDATE
+    TIME_SINCE_LAST_UPDATE,
+    SAMPLE_MESSAGE
   };
   extern std::unordered_map<unsigned int, std::string> message_map;
   template<class T> unsigned char color(const message key, T& value) {

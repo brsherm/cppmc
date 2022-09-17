@@ -12,6 +12,7 @@ namespace logger {
   }
   void init_map() {
     message_map[TIME_SINCE_LAST_UPDATE] = "time since last update";
+    message_map[SAMPLE_MESSAGE] = "sample message";
   }
 }
 
