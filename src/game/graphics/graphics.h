@@ -40,11 +40,11 @@ class GraphicsManager
       const int chunk_index_x,
       const int chunk_index_y
     );
-    void draw_chunks();
+    void draw_chunks() const;
   public:
     GraphicsManager();
     ~GraphicsManager();
-    void draw();
+    void draw() const;
     void load_chunk(const Chunk& chunk, Graphics::ChunkLoader& loader);
     void unload_chunk(const Chunk& chunk, Graphics::ChunkUnloader& unloader);
     std::string loaded_chunks() const;

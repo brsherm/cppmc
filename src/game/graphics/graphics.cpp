@@ -5,12 +5,12 @@ GraphicsManager::GraphicsManager() {}
 
 GraphicsManager::~GraphicsManager() {}
 
-void GraphicsManager::draw()
+void GraphicsManager::draw() const
 {
   draw_chunks();
 }
 
-void GraphicsManager::draw_chunks()
+void GraphicsManager::draw_chunks() const
 {
   for (const auto& x : chunk_controllers) {
     for (const auto& y : x.second) {
